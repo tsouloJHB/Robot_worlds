@@ -1,0 +1,7 @@
+package com.team0021.robotworlds.server.world.Commands;
+
+public enum UpdateResponse {
+    FAILED_PITFALL,FAILED_OBSTRUCTED, SUCCESS, FAILED_OUTSIDE_WORLD, FAILED_ROBOT,
+    FAILED_AMMO, FAILED_MISSED_SHOT, FAILED_MINE,HEALTH_PACK
+
+}

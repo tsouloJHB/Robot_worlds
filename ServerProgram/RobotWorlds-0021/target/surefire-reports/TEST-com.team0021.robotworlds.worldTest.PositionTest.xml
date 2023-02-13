@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.team0021.robotworlds.worldTest.PositionTest" time="0.233" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021/target/test-classes:/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021/target/classes:/home/ikey/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar:/home/ikey/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/ikey/.m2/repository/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar:/home/ikey/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ikey/.m2/repository/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar:/home/ikey/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar:/home/ikey/.m2/repository/org/junit/platform/junit-platform-launcher/1.6.3/junit-platform-launcher-1.6.3.jar:/home/ikey/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/ikey/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/ikey/.m2/repository/junit/junit/4.10/junit-4.10.jar:/home/ikey/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/home/ikey/.m2/repository/com/diogonunes/JColor/5.0.1/JColor-5.0.1.jar:/home/ikey/.m2/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/home/ikey/.m2/repository/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar:/home/ikey/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/home/ikey/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/home/ikey/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-11.0.10/lib"/>
+    <property name="sun.java.command" value="/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021/target/surefire/surefirebooter1338924821641693840.jar /home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021/target/surefire 2021-04-25T07-44-24_744-jvmRun1 surefire6683499189704792720tmp surefire_05216715959014602831tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021/target/test-classes:/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021/target/classes:/home/ikey/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar:/home/ikey/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/ikey/.m2/repository/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar:/home/ikey/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ikey/.m2/repository/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar:/home/ikey/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar:/home/ikey/.m2/repository/org/junit/platform/junit-platform-launcher/1.6.3/junit-platform-launcher-1.6.3.jar:/home/ikey/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/ikey/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/ikey/.m2/repository/junit/junit/4.10/junit-4.10.jar:/home/ikey/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/home/ikey/.m2/repository/com/diogonunes/JColor/5.0.1/JColor-5.0.1.jar:/home/ikey/.m2/repository/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar:/home/ikey/.m2/repository/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar:/home/ikey/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.2/jackson-core-2.12.2.jar:/home/ikey/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.2/jackson-annotations-2.12.2.jar:/home/ikey/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.2/jackson-databind-2.12.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ikey"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-11.0.10"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021/target/surefire/surefirebooter1338924821641693840.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="ikey"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.8.0-7630-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/ikey/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/home/ikey/0021_robot_world/ServerProgram/RobotWorlds-0021"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="insideRectangularRegion" classname="com.team0021.robotworlds.worldTest.PositionTest" time="0.144"/>
+  <testcase name="shouldKnowXandY" classname="com.team0021.robotworlds.worldTest.PositionTest" time="0.012"/>
+  <testcase name="equality" classname="com.team0021.robotworlds.worldTest.PositionTest" time="0.006"/>
+</testsuite>

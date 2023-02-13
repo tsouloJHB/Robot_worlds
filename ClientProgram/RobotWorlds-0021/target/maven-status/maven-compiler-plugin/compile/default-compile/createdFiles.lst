@@ -1,0 +1,6 @@
+com/team0021/robotworlds/ForColor.class
+com/team0021/robotworlds/client/DataDeserialize.class
+com/team0021/robotworlds/client/DataSerialize.class
+com/team0021/robotworlds/client/RobotClient.class
+com/team0021/robotworlds/client/UserInput.class
+com/team0021/robotworlds/client/InformUser.class

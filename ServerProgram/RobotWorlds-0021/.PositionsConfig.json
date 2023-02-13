@@ -1,0 +1,27 @@
+{
+    "setup": 
+    {
+        "impediments": 
+        {
+            "obstaclesMaxNumber": 35,
+            "pitfallMaxNumber": 15
+        },
+        "robotsMaxNumber": 8,
+        "dimensions": 
+        {
+            "topLeft": 
+            [
+                -100,
+                200
+            ],
+            "length": 400,
+            "width": 200,
+            "bottonRight": 
+            [
+                100,
+                -200
+            ],
+            "initialDirection": "North"
+        }
+    }
+}
